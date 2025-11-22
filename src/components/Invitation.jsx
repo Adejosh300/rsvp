@@ -27,7 +27,7 @@ export default function Invitation() {
 
     try {
       const response = await axios.post(
-        "https://invitation-production-a234.up.railway.app/api/rsvp",
+        "https://rsvp-api1-production.up.railway.app/",
         {
           name,
           phone,
